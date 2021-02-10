@@ -4,6 +4,7 @@
 [![Bloc State Management](https://tinyurl.com/bloc-library)](https://github.com/felangel/bloc)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/kodingworks/flutter-works-boilerplate)
 [![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/kodingworks/flutter-works-boilerplate)
+[![License  MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://github.com/kodingworks/flutter-works-boilerplate)
 
 
 ![GitHub stars](https://img.shields.io/github/stars/kodingworks/flutter-works-boilerplate?style=social)
@@ -75,7 +76,9 @@ Berikut beberapa hal yang perlu Anda persiapkan sebelum setup Boilerplate ini:
 
 ### Setup
 
-Untuk menyiakan project Anda berdasarkan dengan boilplate ini, Anda perlu melakukan beberapa langkah-langkah yang perlu Anda lakukan. Berikut langhkah-langkah untuk menyiapkan Project dengan boilerplate Flutter-Works ini:
+Untuk menyiakan project Anda berdasarkan dengan boilplate ini, Anda perlu melakukan beberapa langkah-langkah yang perlu Anda lakukan. Untuk contoh simple implementasi bisa lihat di branch [example](https://github.com/kodingworks/flutter-works-boilerplate/tree/example/)
+
+Berikut langhkah-langkah untuk menyiapkan Project dengan boilerplate Flutter-Works ini:
 
 **Step 1:**
 
