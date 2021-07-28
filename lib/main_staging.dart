@@ -1,12 +1,20 @@
-import 'package:flutter/material.dart';
+import 'dart:async';
+import 'dart:developer';
 
-import 'app.dart';
-import 'flavors.dart';
-import 'locator.dart';
+import 'package:flutter/widgets.dart';
+
+import 'app/app.dart';
+import 'app/flavor.dart';
+import 'app/locator.dart';
 
 Future<void> main() async {
-  F.appFlavor = Flavor.STAGING;
   WidgetsFlutterBinding.ensureInitialized();
-  await setup();
-  runApp(App());
+  F.flavor = Flavor.staging;
+
+  await setupLocator();
+
+  runZonedGuarded(
+    () => runApp(App()),
+    (error, stackTrace) => log(error.toString(), stackTrace: stackTrace),
+  );
 }
